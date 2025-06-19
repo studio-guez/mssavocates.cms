@@ -1,0 +1,29 @@
+title: Article
+
+tabs:
+  content:
+    label: Contenu de l’article
+    icon: edit
+    fields:
+
+      main_title:
+        label: Titre principal
+        type: text
+        width: 2/3
+
+      date:
+        label: Date
+        type: date
+        width: 1/3
+        default: today
+
+      accroche:
+        label: Titre secondaire 
+        type: writer
+        buttons: false
+        size: small
+
+      contenu:
+        label: Texte principal
+        type: textarea
+        size: large

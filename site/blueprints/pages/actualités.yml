@@ -1,0 +1,16 @@
+title: Actualités
+
+options:
+  changeTemplate: false
+  changeSlug: false
+  delete: false
+
+sections:
+  articles:
+    label: Liste des articles
+    type: pages
+    template: article
+    sortBy: date desc
+    create:
+      label: Nouvel article
+      template: article

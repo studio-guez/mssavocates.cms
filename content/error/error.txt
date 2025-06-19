@@ -2,8 +2,4 @@ Title: Error
 
 ----
 
-Text: This page cannot be found 😱
-
-----
-
-Uuid: dRz7d31JoFrPuWkG
+Uuid: XLf0JVk4qd5y95MW

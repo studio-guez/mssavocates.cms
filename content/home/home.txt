@@ -1,13 +1,37 @@
-Title: Home
+Title: Accueil
+----
+
+Titre: okokokok
 
 ----
 
-Headline: Welcome to Kirby's Starterkit
+Texte: <p>oplmlnmlnlknlnlkn</p>
 
 ----
 
-Subheadline: A fully documented example project
+Image: 
 
 ----
 
-Uuid: wljMYhm0m3e9QOwC
+Equipe:
+
+- 
+  nom: lol
+  image: [ ]
+  lien: [ ]
+
+----
+
+Domaines:
+
+- 
+  titre: élmém
+  description: émléml
+
+----
+
+Lien: 
+
+----
+
+Uuid: vm7mui5cBDFSKDF1

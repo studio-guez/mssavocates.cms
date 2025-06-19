@@ -1,0 +1,74 @@
+title: Page de contact
+
+tabs:
+  content:
+    label: Contenu
+    fields:
+
+      # 🧾 Intro
+      intro_headline:
+        label: 🧾 Introduction
+        type: headline
+        numbered: false
+
+      intro:
+        label: Introduction
+        type: textarea
+        size: medium
+        default: >
+          Les avocates de notre Étude sont à votre écoute et se feront un plaisir de vous fournir des informations plus précises concernant leurs prestations.
+
+      # 🏢 Coordonnées de l'étude
+      etude_headline:
+        label: 🏢 Coordonnées de l’étude
+        type: headline
+        numbered: false
+
+      etude_nom:
+        label: Nom de l’étude
+        type: text
+        default: MSS Avocates
+
+      etude_email:
+        label: Email de l’étude
+        type: email
+        default: info@mssavocates.ch
+
+      etude_tel:
+        label: Téléphone
+        type: tel
+        default: +41 22 700 01 02
+
+      # 👤 Membres
+      membres_headline:
+        label: 👤 Emails des membres
+        type: headline
+        numbered: false
+
+      membres:
+        label: Liste des contacts
+        type: structure
+        fields:
+          nom:
+            label: Nom
+            type: text
+          email:
+            label: Email
+            type: email
+
+      # 🗺️ Adresse + image
+      adresse_headline:
+        label: 🗺️ Adresse & image
+        type: headline
+        numbered: false
+
+      adresse:
+        label: Adresse postale
+        type: writer
+        default: MSS Avocates · rue du Conseil–Général, 14 · 1205 Genève
+
+      image:
+        label: Image illustrative (carte ou photo)
+        type: files
+        multiple: false
+        layout: cards

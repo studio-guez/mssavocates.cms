@@ -1,0 +1,72 @@
+Title: Accueil
+
+----
+
+Titre: Une approche humaine,Une Etude engagee
+
+----
+
+Texte: Lorem ipsum dolor sit amet, consectetuer adipiscing elit,sed diam nonummy nibh euismod tincidunt.
+
+----
+
+Photo-equipe: 
+
+----
+
+Equipe:
+
+- 
+  nom: CamilleMaulini
+  image: [ ]
+  lien: [ ]
+- 
+  nom: ClaraSchneuwly
+  image: [ ]
+  lien: [ ]
+- 
+  nom: SaraStrummiello
+  image: [ ]
+  lien: [ ]
+
+----
+
+Domaines:
+
+- 
+  titre: Droit de la famille
+  description: >
+    Divorce, séparation (mesures
+    protectrices de l’union conjugale),
+    droits parentaux, action alimentaire,
+    fixation des relations personnelles
+    parent-enfant, y compris dans des
+    contextes de violence
+- 
+  titre: Droit Pénal
+  description: >
+    Défense de la victime d’une
+    infraction pénale, ayant ou non déjà
+    déposé plainte pénale, en particulier
+    victime de violence sexuelle et
+    conjugale
+- 
+  titre: 'Droit du travail '
+  description: >
+    Défense de l’employé en litige avec
+    son employeur ou ex-employeur
+    (licenciement, heures supplémentaires,
+    certificat de travail, paiement du
+    salaire, arrêts maladie/accident etc.)
+
+----
+
+Image: 
+
+----
+
+Lien: 
+
+----
+
+Uuid: vm7mui5cBDFSKDF1

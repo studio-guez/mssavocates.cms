@@ -1,6 +1,12 @@
 title: Actualités
 
 options:
+  changeSort: true
+
+num: default
+
+
+options:
   changeTemplate: false
   changeSlug: false
   delete: false

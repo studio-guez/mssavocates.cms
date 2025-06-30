@@ -23,7 +23,40 @@ tabs:
         buttons: false
         size: small
 
+      image:
+        label: Image mise en avant
+        type: files
+        multiple: false
+        uploads: image
+
+      resume:
+        label: Résumé
+        type: writer
+        size: medium
+        inline: true
+        marks:
+          - bold
+          - italic
+          - link
+        nodes:
+          - paragraph
+
       contenu:
         label: Texte principal
-        type: textarea
+        type: writer
         size: large
+        inline: false
+        marks:
+          - bold
+          - italic
+          - underline
+          - strike
+          - code
+          - link
+        nodes:
+          - paragraph
+          - heading
+          - bulletList
+          - orderedList
+          - quote
+          - horizontalRule

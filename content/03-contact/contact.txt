@@ -1,0 +1,43 @@
+Title: Contact
+
+----
+
+Intro: Les avocates de notre Étude sont à votre écoute et se feront un plaisir de vous fournir des informations plus précises concernant leurs prestations.
+
+----
+
+Etude-nom: MSS Avocates
+
+----
+
+Etude-email: info@mssavocates.ch
+
+----
+
+Etude-tel: +41 22 700 01 02
+
+----
+
+Membres:
+
+- 
+  nom: Camille MAULINI
+  email: maulini@mssavocates.ch
+- 
+  nom: Clara SCHNEUWLY
+  email: schneuwly@mssavocates.ch
+- 
+  nom: Sara STRUMMIELLO
+  email: schneuwly@mssavocates.ch
+
+----
+
+Adresse: <p>MSS Avocates • rue du Conseil-Général, 14 • 1205 Genève</p>
+
+----
+
+Image: 
+
+----
+
+Uuid: hjuZRjghpVN8z62C

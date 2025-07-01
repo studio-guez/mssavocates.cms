@@ -2,7 +2,7 @@ Title: Accueil
 
 ----
 
-Titre: Une approche humaine,Une Etude engagee
+Titre: Une approche humaine,Une Etude engagee, teste contenu
 
 ----
 
@@ -17,14 +17,17 @@ Photo-equipe:
 Equipe:
 
 - 
-  nom: CamilleMaulini
+  prenom: Maulini
+  nom: Camille
   image: [ ]
   lien: [ ]
 - 
+  prenom: ""
   nom: ClaraSchneuwly
   image: [ ]
   lien: [ ]
 - 
+  prenom: ""
   nom: SaraStrummiello
   image: [ ]
   lien: [ ]

@@ -18,7 +18,7 @@ tabs:
         numbered: false
 
       introduction:
-        label: Introduction  
+        label: Introduction
         type: group
         fields:
           titre:
@@ -30,9 +30,6 @@ tabs:
             label: Texte d’introduction
             type: textarea
             size: medium
-            default: >
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit,  
-              sed diam nonummy nibh euismod tincidunt.
 
       # Photo d'équipe
       image_headline:

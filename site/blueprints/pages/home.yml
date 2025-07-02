@@ -1,9 +1,10 @@
 title: Accueil
 
 options:
-  changeSort: true
-
-num: default
+  changeSort: false
+  changeTemplate: false
+  changeSlug: false
+  delete: false
 
 
 tabs:

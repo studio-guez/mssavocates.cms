@@ -1,3 +1,15 @@
+# MSS Avocates
+
+## dev
+
+### run dev local server
+
+```bash
+composer start start
+```
+
+## Kirby
+
 <img src="http://getkirby.com/assets/images/github/plainkit.jpg" width="300">
 
 **Kirby: the CMS that adapts to any project, loved by developers and editors alike.**

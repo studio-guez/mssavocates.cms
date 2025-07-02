@@ -1,1 +1,3 @@
-<h1><?= $page->title() ?></h1>
+<?php
+  header('location: /panel');
+  exit();

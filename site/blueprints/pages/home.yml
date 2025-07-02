@@ -59,6 +59,9 @@ tabs:
           - nom: Clara Schneuwly
           - nom: Sara Strummiello
         fields:
+          prenom:
+            label: Prénom
+            type: text
           nom:
             label: Nom
             type: text

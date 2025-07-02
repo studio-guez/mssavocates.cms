@@ -2,14 +2,12 @@ title: Actualités
 
 options:
   changeSort: true
-
-num: default
-
-
-options:
   changeTemplate: false
   changeSlug: false
   delete: false
+
+num: default
+
 
 sections:
   articles:

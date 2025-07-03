@@ -23,6 +23,3 @@ sections:
     type: pages
     template: article
     sortBy: date desc
-    create:
-      label: Nouvel article
-      template: article

@@ -54,20 +54,8 @@ tabs:
 
       contenu:
         label: Texte principal
-        type: writer
-        size: large
-        inline: false
-        marks:
-          - bold
-          - italic
-          - underline
-          - strike
-          - code
-          - link
-        nodes:
-          - paragraph
+        type: blocks
+        fieldsets:
           - heading
-          - bulletList
-          - orderedList
-          - quote
-          - horizontalRule
+          - text
+          - image

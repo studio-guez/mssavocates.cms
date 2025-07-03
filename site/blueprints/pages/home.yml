@@ -69,10 +69,6 @@ tabs:
       equipe:
         label: Membres
         type: structure
-        default:
-          - nom: Camille Maulini
-          - nom: Clara Schneuwly
-          - nom: Sara Strummiello
         fields:
           prenom:
             label: Prénom

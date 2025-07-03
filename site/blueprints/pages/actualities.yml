@@ -1,13 +1,21 @@
 title: Actualités
 
+status:
+  draft:
+    label: Draft
+    text: The article is still in draft mode. It can only be seen by editors with Panel access.
+  listed:
+    label: Published
+    text: The article is online and listed in the blog
+
 options:
   changeSort: true
   changeTemplate: false
   changeSlug: false
   delete: false
+  changeStatus: false
 
 num: default
-
 
 sections:
   articles:

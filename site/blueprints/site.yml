@@ -1,12 +1,26 @@
 title: Contenu du site
 
-sections:
-  pages:
-    label: Pages
-    type: pages
-    layout: cards
-    sortBy: manual
-    templates:
-      - home
-      - actualités
-      - contact
+columns:
+  left:
+    width: 2/3
+    sections:
+      pages_infos:
+        label: Pages
+        type: pages
+        layout: cards
+        templates:
+          - home
+          - contact
+
+  right:
+    width: 1/3
+    sections:
+      pages_actualities:
+        label: Pages
+        type: pages
+        layout: cards
+        templates:
+          - actualities
+
+
+

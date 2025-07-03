@@ -1,5 +1,13 @@
 title: Article
 
+status:
+  draft:
+    label: Draft
+    text: The article is still in draft mode. It can only be seen by editors with Panel access.
+  listed:
+    label: Published
+    text: The article is online and listed in the blog
+
 tabs:
   content:
     label: Contenu de l’article
@@ -18,7 +26,7 @@ tabs:
         default: today
 
       accroche:
-        label: Titre secondaire 
+        label: Titre secondaire
         type: writer
         buttons: false
         size: small

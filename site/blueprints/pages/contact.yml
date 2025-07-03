@@ -26,10 +26,12 @@ tabs:
 
       intro:
         label: Introduction
-        type: textarea
-        size: medium
-        default: >
-          Les avocates de notre Étude sont à votre écoute et se feront un plaisir de vous fournir des informations plus précises concernant leurs prestations.
+        type: writer
+        nodes:
+          - paragraph
+        marks:
+          - bold
+          - link
 
       # 🏢 Coordonnées de l'étude
       etude_headline:

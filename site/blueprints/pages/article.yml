@@ -28,8 +28,11 @@ tabs:
       accroche:
         label: Titre secondaire
         type: writer
-        buttons: false
-        size: small
+        nodes:
+          - paragraph
+        marks:
+          - bold
+          - link
 
       image:
         label: Image mise en avant

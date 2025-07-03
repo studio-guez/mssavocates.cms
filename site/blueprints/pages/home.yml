@@ -38,7 +38,12 @@ tabs:
 
           texte:
             label: Texte d’introduction
-            type: textarea
+            type: writer
+            nodes:
+              - paragraph
+            marks:
+              - bold
+              - link
             size: medium
 
       # Photo d'équipe
@@ -104,7 +109,12 @@ tabs:
                 type: text
               description:
                 label: Description
-                type: textarea
+                type: writer
+                nodes:
+                  - paragraph
+                marks:
+                  - bold
+                  - link
 
           image:
             label: Image illustrative
@@ -113,23 +123,3 @@ tabs:
             layout: cards
             uploads:
               template: image
-
-      # Actus
-      actus_headline:
-        label: 📰 Bloc actualités
-        type: headline
-        numbered: false
-
-      actus_home:
-        label: Bloc Actualités
-        type: group
-        fields:
-          titre:
-            label: Titre
-            type: text
-            default: ACTUS
-
-          lien:
-            label: Lien vers la page "Toutes les actualités"
-            type: pages
-            query: site.find("actualites")

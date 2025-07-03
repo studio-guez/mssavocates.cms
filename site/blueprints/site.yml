@@ -8,6 +8,10 @@ columns:
         label: Pages
         type: pages
         layout: cards
+        image:
+          query: false
+          ratio: 3/1
+          back: "rgb(196 226 254)"
         templates:
           - home
           - contact
@@ -19,6 +23,10 @@ columns:
         label: Pages
         type: pages
         layout: cards
+        image:
+          query: false
+          ratio: 3/1
+          back: "rgb(196 226 254)"
         templates:
           - actualities
 

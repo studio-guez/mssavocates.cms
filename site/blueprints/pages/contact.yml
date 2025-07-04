@@ -9,7 +9,11 @@ status:
     text: The article is online and listed in the blog
 
 options:
-  changeSort: true
+  changeSort: false
+  changeTemplate: false
+  changeSlug: false
+  delete: false
+  changeStatus: false
 
 num: default
 
@@ -42,17 +46,14 @@ tabs:
       etude_nom:
         label: Nom de l’étude
         type: text
-        default: MSS Avocates
 
       etude_email:
         label: Email de l’étude
         type: email
-        default: info@mssavocates.ch
 
       etude_tel:
         label: Téléphone
         type: tel
-        default: +41 22 700 01 02
 
       # 👤 Membres
       membres_headline:
@@ -80,7 +81,6 @@ tabs:
       adresse:
         label: Adresse postale
         type: writer
-        default: MSS Avocates · rue du Conseil–Général, 14 · 1205 Genève
 
       image:
         label: Image illustrative (carte ou photo)

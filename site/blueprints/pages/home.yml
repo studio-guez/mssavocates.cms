@@ -34,7 +34,7 @@ tabs:
           titre:
             label: Titre principal
             type: text
-            default: UNE APPROCHE HUMAINE, UNE ÉTUDE ENGAGÉE
+            default: UNE APPROCHE HUMAINE, UNE ÉTUDE ENGAGÉE PROUT
 
           texte:
             label: Texte d’introduction

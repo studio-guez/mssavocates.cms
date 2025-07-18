@@ -24,6 +24,23 @@ Kirby::plugin('villa1203/custom-fields-methods', [
         ];
       })->data();
 
+    },
+    'toStructure_custom' => function ($field) {
+
+      return $field->toBlocks()->map(function ($item) {
+        return [
+          'content' => $item->toArray(),
+          'img_srcset' => [
+            'tiny'  => $item->content()->image()->toFile()?->resize(50, null, 10)->url(),
+            'small' => $item->content()->image()->toFile()?->resize(500)->url(),
+            'reg'   => $item->content()->image()->toFile()?->resize(1280)->url(),
+            'large' => $item->content()->image()->toFile()?->resize(1920)->url(),
+            'xxl'   => $item->content()->image()->toFile()?->resize(2500)->url(),
+          ],
+        ];
+      })->data();
+
     }
+
   ]
 ]);

@@ -94,7 +94,7 @@ tabs:
 
       domaines_activite:
         label: Domaines d’activités
-        type: group
+        type: structure
         fields:
           domaines:
             label: Liste des domaines

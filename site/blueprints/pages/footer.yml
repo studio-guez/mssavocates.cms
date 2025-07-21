@@ -1,0 +1,40 @@
+title: Footer
+options:
+  changeSort: false
+  changeTemplate: false
+  changeSlug: false
+  delete: false
+  changeStatus: false
+
+  s
+tabs:
+  content:
+    label: Contenu du footer
+    fields:
+      adresse:
+        label: Adresse
+        type: writer
+        nodes: false
+        marks: [bold]
+        width: 1/2
+
+      acces:
+        label: Accès
+        type: writer
+        nodes: false
+        marks: [bold]
+        width: 1/2
+
+      contact:
+        label: Contact
+        type: writer
+        nodes: false
+        marks: [bold]
+        width: 1/2
+
+      accueil_telephonique:
+        label: Accueil téléphonique
+        type: writer
+        nodes: false
+        marks: [bold]
+        width: 1/2

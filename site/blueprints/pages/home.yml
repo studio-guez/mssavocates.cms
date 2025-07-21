@@ -29,7 +29,7 @@ tabs:
 
       introduction:
         label: Introduction
-        type: group
+        type: structure
         fields:
           titre:
             label: Titre principal

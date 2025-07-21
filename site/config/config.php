@@ -1,9 +1,12 @@
 <?php
 
 return [
+  'debug' => true,
   'api' => [
-    'basicAuth' => true,
-    'allowInsecure' => false,
+    'basicAuth' => false,        // ❌ désactive l'auth
+    'allowInsecure' => true      // ✅ accepte HTTP
   ],
-  'debug' => false,
+  'kql' => [
+    'auth' => false              // ✅ KQL sans login
+  ]
 ];

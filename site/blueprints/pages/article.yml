@@ -54,8 +54,8 @@ tabs:
 
       contenu:
         label: Texte principal
-        type: blocks
-        fieldsets:
+        type: writer
+        nodes:
           - heading
-          - text
+          - paragraph
           - image

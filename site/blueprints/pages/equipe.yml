@@ -1,0 +1,44 @@
+title: Equipe
+
+options:
+  changeTemplate: false
+  delete: false
+
+columns:
+  main:
+    width: 1/1
+    sections:
+      profils:
+        label: Membres de l’équipe
+        type: fields
+        fields:
+          profils_list:
+            label: Profils
+            type: structure
+            sortBy: name asc
+            fields:
+              fullname:
+                label: Prénom et Nom
+                type: text
+                width: 1/2
+              email:
+                label: Email
+                type: email
+                width: 1/2
+              photo:
+                label: Photo
+                type: files
+                layout: cards
+                multiple: false
+                width: 1/2
+                uploads:
+                  template: image
+              description:
+                label: Description
+                type: writer
+                width: 1/1
+                nodes:
+                  - paragraph
+                marks:
+                  - bold
+                  - italic

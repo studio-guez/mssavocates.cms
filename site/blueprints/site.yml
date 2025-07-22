@@ -14,7 +14,9 @@ columns:
           back: "rgb(196 226 254)"
         templates:
           - home
+          - equipe
           - contact
+          - footer
 
   right:
     width: 1/3
@@ -23,6 +25,10 @@ columns:
         label: Pages
         type: pages
         layout: cards
+        image:
+          query: false
+          ratio: 3/1
+          back: "rgb(196 226 254)"
         templates:
           - actualities
 

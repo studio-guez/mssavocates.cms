@@ -1,0 +1,6 @@
+title: Fichier
+
+fields:
+  alt:
+    label: Texte alternatif
+    type: text

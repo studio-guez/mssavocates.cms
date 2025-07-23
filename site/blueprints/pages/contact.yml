@@ -30,13 +30,8 @@ tabs:
 
       intro:
         label: Introduction
-        type: writer
-        nodes:
-          - paragraph
-        marks:
-          - bold
-          - link
-
+        type: text
+ 
       # 🏢 Coordonnées de l'étude
       etude_headline:
         label: 🏢 Coordonnées de l’étude
@@ -84,6 +79,6 @@ tabs:
 
       image:
         label: Image illustrative (carte ou photo)
-        type: files
+        type: file
         multiple: false
-        layout: cards
+        # layout: cards

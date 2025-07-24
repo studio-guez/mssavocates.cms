@@ -28,11 +28,6 @@ tabs:
       accroche:
         label: Titre secondaire
         type: writer
-        nodes:
-          - paragraph
-        marks:
-          - bold
-          - link
 
       image:
         label: Image de couverture

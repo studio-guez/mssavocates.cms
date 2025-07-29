@@ -38,7 +38,7 @@ tabs:
 
           texte:
             label: Texte d’introduction
-            type: writer
+            type: text
             nodes:
               - paragraph
             marks:
@@ -113,7 +113,7 @@ tabs:
                   - link
 
           image:
-            label: Image illustrative
+            label: Image illustrative 
             type: files
             multiple: false
             layout: cards

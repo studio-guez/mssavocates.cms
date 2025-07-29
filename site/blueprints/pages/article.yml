@@ -27,7 +27,7 @@ tabs:
 
       accroche:
         label: Titre secondaire
-        type: writer
+        type: text
 
       image:
         label: Image de couverture

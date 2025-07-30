@@ -5,7 +5,7 @@ options:
   changeTemplate: false
   changeSlug: false
   delete: false
-  changeStatus: true
+  changeStatus: false
 
 
 tabs:

@@ -6,7 +6,7 @@ options:
   delete: false
   changeStatus: false
 
-  s
+  
 tabs:
   content:
     label: Contenu du footer

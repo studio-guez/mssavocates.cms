@@ -1,3 +1,4 @@
+status: listed
 title: Footer
 options:
   changeSort: false
@@ -6,7 +7,7 @@ options:
   delete: false
   changeStatus: false
 
-  s
+
 tabs:
   content:
     label: Contenu du footer

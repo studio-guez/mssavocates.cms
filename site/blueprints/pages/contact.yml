@@ -11,7 +11,7 @@ status:
 options:
   changeSort: false
   changeTemplate: false
-  changeSlug: true
+  changeSlug: false
   delete: false
   changeStatus: false
 

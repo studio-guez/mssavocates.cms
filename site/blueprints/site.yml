@@ -16,7 +16,6 @@ columns:
           - home
           - equipe
           - contact
-          - footer
 
   right:
     width: 1/3

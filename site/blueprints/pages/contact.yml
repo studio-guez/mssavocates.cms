@@ -50,23 +50,6 @@ tabs:
         label: Téléphone
         type: tel
 
-      # 👤 Membres
-      membres_headline:
-        label: 👤 Emails des membres
-        type: headline
-        numbered: false
-
-      membres:
-        label: Liste des contacts
-        type: structure
-        fields:
-          nom:
-            label: Nom
-            type: text
-          email:
-            label: Email
-            type: email
-
       # 🗺️ Adresse + image
       adresse_headline:
         label: 🗺️ Adresse & image

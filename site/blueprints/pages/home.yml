@@ -60,32 +60,6 @@ tabs:
         uploads:
           template: image
 
-      # Équipe
-      equipe_headline:
-        label: 👥 Équipe
-        type: headline
-        numbered: false
-
-      equipe:
-        label: Membres
-        type: structure
-        fields:
-          prenom:
-            label: Prénom
-            type: text
-          nom:
-            label: Nom
-            type: text
-          image:
-            label: Photo
-            type: files
-            multiple: false
-          lien:
-            label: Lien vers la page membre
-            type: pages
-            multiple: false
-            query: site.find("equipe").children
-
       # Domaines
       domaines_headline:
         label: 📘 Domaines d’activités

@@ -7,6 +7,8 @@ return [
     'allowInsecure' => true      // ✅ accepte HTTP
   ],
   'kql' => [
-    'auth' => false              // ✅ KQL sans login
-  ]
+    'auth' => false,             // ✅ KQL sans login
+    'intercept' => true          // ✅ Autorise toutes les méthodes (dev only)
+  ],
+  'hooks' => require __DIR__ . '/hooks.php'
 ];

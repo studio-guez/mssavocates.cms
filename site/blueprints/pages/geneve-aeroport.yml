@@ -1,0 +1,38 @@
+title: À l'attention du personnel de Genève Aéroport
+
+status:
+  draft:
+    label: Brouillon
+    text: La page est en mode brouillon. Elle ne peut être vue que par les éditeurs avec accès au Panel.
+  listed:
+    label: Publiée
+    text: La page est en ligne et visible sur le site
+
+options:
+  changeSort: false
+  changeTemplate: false
+  changeSlug: true
+  delete: true
+  changeStatus: true
+
+num: default
+
+tabs:
+  content:
+    label: Contenu
+    icon: text
+    fields:
+
+      main_title:
+        label: Titre principal
+        type: text
+        default: À l'attention du personnel de Genève Aéroport
+
+      contenu:
+        label: Contenu
+        type: blocks
+        fieldsets:
+          - heading
+          - text
+          - list
+

@@ -11,9 +11,9 @@ status:
 options:
   changeSort: true
   changeTemplate: false
-  changeSlug: false
-  delete: false
-  changeStatus: false
+  changeSlug: true
+  delete: true
+  changeStatus: true
 
 num: default
 
@@ -23,3 +23,31 @@ sections:
     type: pages
     template: article
     sortBy: date desc
+    sortable: true
+    info: "{{ page.date.toDate('d/m/Y') }}"
+    columns:
+      main_title:
+        label: Titre
+        type: text
+        value: "{{ page.main_title }}"
+        width: 1/3
+      date:
+        label: Date
+        type: text
+        value: "{{ page.date.toDate('d/m/Y') }}"
+        width: 1/6
+      hero:
+        label: Hero
+        type: text
+        value: "{{ page.showInHero }}"
+        width: 1/12
+      carousel:
+        label: Carousel
+        type: text
+        value: "{{ page.showInCarousel }}"
+        width: 1/12
+      status:
+        label: Statut
+        type: text
+        value: "{{ page.status }}"
+        width: 1/6

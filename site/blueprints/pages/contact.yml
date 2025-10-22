@@ -12,8 +12,8 @@ options:
   changeSort: false
   changeTemplate: false
   changeSlug: true
-  delete: false
-  changeStatus: false
+  delete: true
+  changeStatus: true
 
 num: default
 

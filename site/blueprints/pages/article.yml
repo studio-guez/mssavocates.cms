@@ -7,6 +7,14 @@ status:
   listed:
     label: Publié
     text: L'article est en ligne et visible sur le site
+  unlisted:
+    label: Archivé
+    text: L'article est archivé et n'apparaît plus sur le site public
+
+options:
+  delete: true
+  changeSlug: true
+  changeStatus: true
 
 tabs:
   content:

@@ -16,6 +16,7 @@ columns:
           - home
           - equipe
           - contact
+          - geneve-aeroport
 
   right:
     width: 1/3

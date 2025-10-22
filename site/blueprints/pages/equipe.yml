@@ -2,7 +2,9 @@ title: Equipe
 
 options:
   changeTemplate: false
-  delete: false
+  delete: true
+  changeSlug: true
+  changeStatus: true
 
 columns:
   main:
@@ -26,13 +28,23 @@ columns:
                 type: email
                 width: 1/2
               photo:
-                label: Photo
+                label: Photo (page d'accueil - aperçu)
                 type: files
                 layout: cards
                 multiple: false
                 width: 1/2
                 uploads:
                   template: image
+                help: Image utilisée sur la page d'accueil
+              photo_full:
+                label: Photo (page équipe - complète)
+                type: files
+                layout: cards
+                multiple: false
+                width: 1/2
+                uploads:
+                  template: image
+                help: Image utilisée sur la page équipe/contact
               description:
                 label: Description
                 type: writer

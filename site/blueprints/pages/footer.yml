@@ -4,8 +4,8 @@ options:
   changeSort: false
   changeTemplate: false
   changeSlug: false
-  delete: false
-  changeStatus: false
+  delete: true
+  changeStatus: true
 
   
 tabs:

@@ -1,34 +1,53 @@
 title: Contenu du site
 
+options:
+  changeTitle: false
+
 columns:
   left:
     width: 2/3
     sections:
       pages_infos:
-        label: Pages
+        label: Pages principales
         type: pages
         layout: cards
         image:
           query: false
           ratio: 3/1
           back: "rgb(196 226 254)"
+        text: "{{ page.intendedTemplate }}"
         templates:
           - home
           - equipe
           - contact
           - geneve-aeroport
 
+      pages_system:
+        label: Paramètres système
+        type: pages
+        layout: cards
+        parent: site
+        image:
+          query: false
+          ratio: 3/1
+          back: "rgb(254 226 196)"
+        text: "{{ page.title }}"
+        templates:
+          - footer
+
   right:
     width: 1/3
     sections:
       pages_actualitees :
-        label: Pages
+        label: Actualités
         type: pages
         layout: cards
+        create: false
         image:
           query: false
           ratio: 3/1
-          back: "rgb(196 226 254)"
+          back: "rgb(254 196 226)"
+        text: "{{ page.children.count }} articles"
         templates:
           - actualities
 

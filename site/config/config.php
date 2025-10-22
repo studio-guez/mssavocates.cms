@@ -1,9 +1,16 @@
 <?php
 
+header("Access-Control-Allow-Origin: *");
+
+
 return [
-  'api' => [
-    'basicAuth' => true,
-    'allowInsecure' => false,
-  ],
-  'debug' => false,
+    'url' => '/',
+    'api' => [
+        'basicAuth' => true,
+        'allowInsecure' => false,
+    ],
+    'debug' => false,
+    'kql' => [
+        'auth' => false
+    ]
 ];

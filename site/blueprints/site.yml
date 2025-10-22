@@ -7,6 +7,4 @@ sections:
     layout: cards
     sortBy: manual
     templates:
-      - home
-      - actualités
-      - contact
+      - article

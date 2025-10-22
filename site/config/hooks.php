@@ -11,8 +11,9 @@ return [
         if (isset($values['show_in_hero']) && $values['show_in_hero'] === true) {
             // Compter combien d'articles ont déjà show_in_hero activé
             $heroArticlesCount = page('actualites')
-                ->children()
-                ->listed()
+                // ->children()
+                // ->listed()
+                ->childrenAndDrafts()
                 ->filterBy('show_in_hero', 'true')
                 ->not($page) // Exclure l'article actuel
                 ->count();

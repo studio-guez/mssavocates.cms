@@ -48,9 +48,10 @@ tabs:
           - paragraph
 
       contenu:
-        label: Texte principal
-        type: writer
-        nodes:
+        label: Contenu de l'article
+        type: blocks
+        fieldsets:
           - heading
-          - paragraph
+          - text
           - image
+          - list

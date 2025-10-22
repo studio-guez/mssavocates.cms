@@ -29,6 +29,24 @@ tabs:
         label: Titre secondaire
         type: text
 
+      show_in_hero:
+        label: Afficher dans le hero de la page d'accueil
+        type: toggle
+        text:
+          - Non
+          - Oui
+        width: 1/2
+        help: Maximum 2 articles peuvent être affichés dans le hero
+
+      show_in_carousel:
+        label: Afficher dans le carrousel de la page d'accueil
+        type: toggle
+        text:
+          - Non
+          - Oui
+        width: 1/2
+        help: Maximum 5 articles peuvent être affichés dans le carrousel
+
       image:
         label: Image de couverture
         type: files

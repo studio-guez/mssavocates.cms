@@ -2,11 +2,11 @@ title: Article
 
 status:
   draft:
-    label: Draft
-    text: The article is still in draft mode. It can only be seen by editors with Panel access.
+    label: Brouillon
+    text: L'article est en mode brouillon. Il ne peut être vu que par les éditeurs avec accès au Panel.
   listed:
-    label: Published
-    text: The article is online and listed in the blog
+    label: Publié
+    text: L'article est en ligne et visible sur le site
 
 tabs:
   content:

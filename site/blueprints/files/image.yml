@@ -1,0 +1,11 @@
+title: Image
+
+accept:
+  mime: image/jpeg, image/png, image/gif, image/svg+xml, image/webp
+
+fields:
+  alt:
+    label: Texte alternatif (ALT)
+    type: text
+    help: Décrivez l'image de manière concise pour l'accessibilité et le référencement. Ce texte sera lu par les lecteurs d'écran et affiché si l'image ne charge pas.
+    placeholder: Ex. Portrait de l'avocat...

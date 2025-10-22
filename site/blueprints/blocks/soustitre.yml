@@ -1,0 +1,16 @@
+name: Sous-titre
+icon: title
+wysiwyg: true
+preview: heading
+fields:
+  level:
+    type: toggles
+    disabled: true
+    default: h4
+    options:
+      - value: h4
+        icon: h4
+        text: H4
+  text:
+    type: writer
+    inline: true

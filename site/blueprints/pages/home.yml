@@ -2,11 +2,11 @@ title: Accueil
 
 status:
   draft:
-    label: Draft
-    text: The article is not still in draft mode. It can only be seen by editors with Panel access.
+    label: Brouillon
+    text: La page est en mode brouillon. Elle ne peut être vue que par les éditeurs avec accès au Panel.
   listed:
-    label: Published
-    text: The article is online and listed in the blog
+    label: Publiée
+    text: La page est en ligne et visible sur le site
 
 options:
   changeSort: false
@@ -62,37 +62,36 @@ tabs:
 
       # Domaines
       domaines_headline:
-        label: 📘 Domaines d’activités
+        label: 📘 Notre étude
         type: headline
         numbered: false
 
-      domaines_activite:
-        label: Domaines d’activités
-        type: structure
-        fields:
-          domaines:
-            label: Liste des domaines
-            type: structure
-            fields:
-              titre:
-                label: Titre du domaine
-                type: text
-              description:
-                label: Description
-                type: writer
-                nodes:
-                  - paragraph
-                marks:
-                  - bold
-                  - link
+      domaines_titre:
+        label: Titre de la section
+        type: text
+        default: Domaines d'activités
 
-          image:
-            label: Image illustrative 
-            type: files
-            multiple: false
-            layout: cards
-            uploads:
-              template: image
+      domaines_activite_gauche:
+        label: Colonne de gauche
+        type: blocks
+        fieldsets:
+          - soustitre
+          - text
+          - list
+          - image
+        pretty: true
+        width: 1/2
+
+      domaines_activite_droite:
+        label: Colonne de droite
+        type: blocks
+        fieldsets:
+          - soustitre
+          - text
+          - list
+          - image
+        pretty: true
+        width: 1/2
 
 # Footer
       footer_headline:

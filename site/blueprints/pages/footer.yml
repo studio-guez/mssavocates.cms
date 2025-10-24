@@ -3,7 +3,7 @@ title: Footer
 options:
   changeSort: false
   changeTemplate: false
-  changeSlug: false
+  changeSlug: true
   delete: true
   changeStatus: true
 

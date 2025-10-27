@@ -1,10 +1,18 @@
-status: listed
 title: Footer
+
+status:
+  draft:
+    label: Brouillon
+    text: La page est en mode brouillon
+  listed:
+    label: Publiée
+    text: La page est publiée et visible
+
 options:
   changeSort: false
   changeTemplate: false
-  changeSlug: true
-  delete: true
+  changeSlug: false
+  delete: false
   changeStatus: true
 
   

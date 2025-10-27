@@ -8,7 +8,9 @@ return [
   ],
   'kql' => [
     'auth' => false,             // ✅ KQL sans login
-    'intercept' => true          // ✅ Autorise toutes les méthodes (dev only)
+    'intercept' => function ($type, $key, $value) {
+      return true;  // Autorise TOUT en mode dev
+    }
   ],
   'hooks' => require __DIR__ . '/hooks.php'
 ];

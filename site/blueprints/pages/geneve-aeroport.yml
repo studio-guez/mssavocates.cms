@@ -9,7 +9,7 @@ status:
     text: La page est en ligne et visible sur le site
 
 options:
-  changeSort: false
+  changeSort: true
   changeTemplate: false
   changeSlug: true
   delete: true

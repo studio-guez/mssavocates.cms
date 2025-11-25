@@ -10,47 +10,8 @@ columns:
   main:
     width: 1/1
     sections:
-      profils:
-        label: Membres de l’équipe
-        type: fields
-        fields:
-          profils_list:
-            label: Profils
-            type: structure
-            sortBy: name asc
-            fields:
-              fullname:
-                label: Prénom et Nom
-                type: text
-                width: 1/2
-              email:
-                label: Email
-                type: email
-                width: 1/2
-              photo:
-                label: Photo (page d'accueil - aperçu)
-                type: files
-                layout: cards
-                multiple: false
-                width: 1/2
-                uploads:
-                  template: image
-                help: Image utilisée sur la page d'accueil
-              photo_full:
-                label: Photo (page équipe - complète)
-                type: files
-                layout: cards
-                multiple: false
-                width: 1/2
-                uploads:
-                  template: image
-                help: Image utilisée sur la page équipe/contact
-              description:
-                label: Description
-                type: writer
-                width: 1/1
-                nodes:
-                  - paragraph
-                marks:
-                  - bold
-                  - italic
+      profiles:
+        label: Liste des profiles
+        type: pages
+        template: equipe-profile
+        sortable: true

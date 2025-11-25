@@ -1,0 +1,44 @@
+title: Profile
+
+options:
+  changeTemplate: false
+
+
+columns:
+  main:
+    width: 1/1
+    fields:
+      email:
+        label: Email
+        type: email
+        width: 1/2
+      gap:
+        type: gap
+        width: 1/2
+      photo:
+        label: Photo (page d'accueil - aperçu)
+        type: files
+        layout: cards
+        multiple: false
+        width: 1/2
+        uploads:
+          template: image
+        help: Image utilisée sur la page d'accueil
+      photo_full:
+        label: Photo (page équipe - complète)
+        type: files
+        layout: cards
+        multiple: false
+        width: 1/2
+        uploads:
+          template: image
+        help: Image utilisée sur la page équipe/contact
+      description:
+        label: Description
+        type: writer
+        width: 1/1
+        nodes:
+          - paragraph
+        marks:
+          - bold
+          - italic

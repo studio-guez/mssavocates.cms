@@ -10,8 +10,10 @@ columns:
     fields:
       email:
         label: Email
-        type: email
+        type: text
         width: 1/2
+        pattern: '^[a-zA-Z0-9._%+-]+\[at\]$'
+        help: Format requis - exemple[at]
       gap:
         type: gap
         width: 1/2

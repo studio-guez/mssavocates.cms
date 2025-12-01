@@ -31,7 +31,7 @@ tabs:
       intro:
         label: Introduction
         type: text
- 
+
       # 🏢 Coordonnées de l'étude
       etude_headline:
         label: 🏢 Coordonnées de l’étude
@@ -44,7 +44,9 @@ tabs:
 
       etude_email:
         label: Email de l’étude
-        type: email
+        type: text
+        pattern: '^[a-zA-Z0-9._%+-]+\[at\]$'
+        help: Format requis - exemple[at]
 
       etude_tel:
         label: Téléphone

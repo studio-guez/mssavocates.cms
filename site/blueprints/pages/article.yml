@@ -44,7 +44,7 @@ tabs:
           - Non
           - Oui
         width: 1/2
-        help: Maximum 2 articles peuvent être affichés dans le hero
+        help: Maximum 1 articles peuvent être affichés dans le hero
 
       image:
         label: Image de couverture

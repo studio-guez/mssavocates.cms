@@ -15,7 +15,7 @@ options:
   delete: false
   changeStatus: true
 
-  
+
 tabs:
   content:
     label: Contenu du footer
@@ -24,26 +24,34 @@ tabs:
         label: Adresse
         type: writer
         nodes: false
-        marks: [bold]
+        marks:
+          - bold
+          - link
         width: 1/2
 
       acces:
         label: Accès
         type: writer
         nodes: false
-        marks: [bold]
+        marks:
+          - bold
+          - link
         width: 1/2
 
       contact:
         label: Contact
         type: writer
         nodes: false
-        marks: [bold]
+        marks:
+          - bold
+          - link
         width: 1/2
 
       accueil_telephonique:
         label: Accueil téléphonique
         type: writer
         nodes: false
-        marks: [bold]
+        marks:
+          - bold
+          - link
         width: 1/2

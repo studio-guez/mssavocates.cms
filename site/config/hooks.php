@@ -19,7 +19,7 @@ return [
                 ->count();
 
             // Si on a déjà 2 articles, on empêche l'activation
-            if ($heroArticlesCount >= 2) {
+            if ($heroArticlesCount >= 1) {
                 throw new Exception('Maximum 1 articles peuvent être affichés dans le hero de la page d\'accueil. Veuillez désactiver un autre article avant d\'activer celui-ci.');
             }
         }
@@ -39,7 +39,7 @@ return [
                 ->filterBy('show_in_hero', 'true')
                 ->count();
 
-            if ($heroArticlesCount >= 2) {
+            if ($heroArticlesCount >= 1) {
                 throw new Exception('Maximum 1 articles peuvent être affichés dans le hero de la page d\'accueil.');
             }
         }

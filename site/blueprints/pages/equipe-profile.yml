@@ -14,9 +14,13 @@ columns:
         width: 1/2
         pattern: '^[a-zA-Z0-9._%+-]+\[at\]$'
         help: Format requis - exemple[at]
-      gap:
-        type: gap
+
+      cv_file:
+        label: Curriculum Vitae
+        type: url
         width: 1/2
+        help: Lien vers un fichier PDF pour le Curriculum Vitae
+
       photo:
         label: Photo (page d'accueil - aperçu)
         type: files

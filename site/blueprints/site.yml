@@ -19,6 +19,7 @@ columns:
     sections:
       pages_infos:
         label: Pages principales
+        status: listed
         type: pages
         layout: cards
         image:
@@ -42,6 +43,7 @@ columns:
           ratio: 3/1
           back: "rgb(254 226 196)"
         text: "{{ page.title }}"
+        status: listed
         templates:
           - footer
 

@@ -8,8 +8,7 @@ columns:
     width: 1/4
     fields:
       files:
-        label:
-          fr: Fichiers
+        label: Fichiers PDF
         type: files
         layout: small
         uploads:

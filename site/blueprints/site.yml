@@ -5,7 +5,18 @@ options:
 
 columns:
   left:
-    width: 2/3
+    width: 1/4
+    fields:
+      files:
+        label:
+          fr: Fichiers
+        type: files
+        layout: small
+        uploads:
+          template: pdf
+
+  center:
+    width: 2/4
     sections:
       pages_infos:
         label: Pages principales
@@ -36,7 +47,7 @@ columns:
           - footer
 
   right:
-    width: 1/3
+    width: 1/4
     sections:
       pages_actualitees :
         label: Actualités

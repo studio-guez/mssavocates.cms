@@ -1,7 +1,8 @@
 <?php
 
 return [
-  'debug' => true,
+  'url' => 'https://cms.mssavocates.ch',
+//  'debug' => true,
   'api' => [
     'basicAuth' => false,        // ❌ désactive l'auth
     'allowInsecure' => true      // ✅ accepte HTTP
